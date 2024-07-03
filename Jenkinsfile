@@ -10,7 +10,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    sh 'docker build -t akash120895/edurekab1:v1 .'
+                    sh 'docker build -t akash12081995/edurekab1:v1 .'
                     sh 'docker images'
                 }
             }
